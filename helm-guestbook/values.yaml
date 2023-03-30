@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: gcr.io/heptio-images/ks-guestbook-demo
+  repository: image-registry.openshift-image-registry.svc:5000/openshift/httpd@sha256:6e325b86566fafd3c4683a05a219c30c421fbccbf8d87ab9d20d4ec1131c3451
   tag: 0.1
   pullPolicy: IfNotPresent
 
